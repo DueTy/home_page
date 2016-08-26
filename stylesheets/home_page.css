@@ -122,6 +122,8 @@ body {
   color: #F5A801;
   font-weight: bold;
   margin-left: 2px;
+  font-size: 16px;
+  vertical-align: middle;
 }
 .top-bar-wrap .cart .order-num:hover {
   border-bottom: 1px solid;
@@ -160,6 +162,14 @@ body {
 }
 .top-bar-wrap .currency .currency-list div:hover {
   color: #F5A801;
+}
+.header {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 28px 0;
+}
+.header .menu-wrap {
+  float: left;
 }
 .iconfont {
   display: inline-block;
