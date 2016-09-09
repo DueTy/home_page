@@ -215,6 +215,10 @@ body{
         line-height: 68px;
         float: left;
         margin-left: 100px;
+        .iconfont{
+            color: #777;
+
+        }
         li{
             cursor: pointer;
             font-size: 16px;
@@ -252,8 +256,154 @@ body{
 
 }
 .main-menu{
+    font-family: "microsoft yahei";
     background-size: cover;
     width: 100%;
+    height: 450px;
     background-position: center;
     background-image: url(../../images/newZealand-bg.png);
+    .menu-container{
+        width: 1200px;
+        margin: 0 auto;
+    }
+    .menu-left{
+        width: 230px;
+        height: 450px;
+        background: rgba(0, 0, 0, 0.6);
+        float: left;
+    }
+    .menu-center{
+        width: 510px;
+        height: 410px;
+        padding: 20px 10px 20px 40px;
+        background-color: #F7F7F7;
+        float: left;
+    }
+    .menu-right{
+        width: 409px;
+        height: 450px;
+        background: #F4F4F4;
+        border-left: solid 1px #E6E6EA;
+        float: left;
+    }
+    .left-list{
+        cursor: default;
+        color:#EBEDED;
+        .list-title{
+            margin: 0 auto;
+            height: 40px;
+            width: 190px;
+            font-size: 20px;
+            padding-top: 10px;
+            line-height: 25px;
+        }
+        .list-item{
+            font-size: 16px;
+            font-weight: bold;
+            margin: 0 auto;
+            height: 80px;
+            padding: 10px 20px;
+            padding-right: 0px;
+            &:hover{
+                background-color: #F9F9F9;
+                color: #777777;
+                .iconfont{
+                    display: none;
+                }
+            }
+            .iconfont{
+                .hoverTransform(rotate(-90deg));
+                float: right;
+                font-weight: normal;
+                color: #777;
+                margin-right: 5px;
+            }
+        }
+        .item-title{
+            display: block;
+            margin-bottom: 10px;
+        }
+        .place-list{
+            li{
+                color: #777777;
+                font-weight: normal;
+                cursor: pointer;
+                font-size: 14px;
+                float: left;
+                padding: 5px 0px;
+                padding-right: 10px;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    .center-list{
+        cursor: default;
+        .item-list{
+            float: left;
+            margin: 10px 10px;
+            width: 100px;
+        }
+        .list-title{
+            text-align: left;
+            color: #363636;
+            font-weight: bold;
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+        .item-li{
+            cursor: pointer;
+            color: #777;
+            font-size: 14px;
+            padding: 5px 0px;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+    .right-list{
+        font-family: "microsoft yahei";
+        table{
+            cursor: default;
+            height: 130px;
+            margin: 18px 0px;
+            text-align: center;
+            margin-left: 40px;
+        }
+        .sea-sell{
+            margin-top: 20px;
+            color: #FB5F0F;
+        }
+        .new-rec{
+            color: #777777;
+            .iconfont{
+                color: #0090F2;
+            }
+        }
+        .hot-style{
+            color: #777777;
+            .hot{
+                color: #50C866;
+            }
+
+        }
+        .tab-title{
+            text-align: left;
+            text-indent: 50px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .item-td{
+            cursor: pointer;
+            width: 180px;
+            font-size: 14px;
+            margin: 10px 0px;
+            display: inline-block;
+            text-align: left;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
 }
