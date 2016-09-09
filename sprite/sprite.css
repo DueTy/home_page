@@ -40,9 +40,3 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
   width: 1875px;
   height: 640px;
 }
-.icon-phone {
-  background-image: url(sprite.png);
-  background-position: -2049px -85px;
-  width: 16px;
-  height: 16px;
-}
